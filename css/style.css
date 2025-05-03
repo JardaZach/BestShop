@@ -30,7 +30,6 @@ a {
     margin: 0 auto;
 }
 
-/* header style */
 .header {
     height: 70px;
     background-color: var(--color-white);
@@ -42,7 +41,6 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-
 }
 
 .logo {
@@ -66,7 +64,6 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     padding: 28px 18px 22px;
-
     border-bottom: 4px solid transparent;
 }
 
@@ -83,7 +80,6 @@ a {
     padding-right: 0;
 }
 
-/* section welcoming */
 .first_section {
     display: flex;
     flex-direction: column;
@@ -100,7 +96,6 @@ a {
     line-height: 57px;
     font-family: var(--font-raleway);
     font-weight: normal;
-
 }
 
 .opening_text {
@@ -115,7 +110,6 @@ a {
     color: var(--color-white);
     display: inline-block;
     font-weight: bold;
-
     padding: 16px 65px;
     border-radius: var(--button-radius);
 }
@@ -134,7 +128,6 @@ a {
     height:100%;
 }
 
-/* second section statistics */
 .second_section_statistics {
     margin-top: 100px;
 }
@@ -174,7 +167,6 @@ h2 {
 
 .statistics_img {
     position: absolute;
-
 }
 
 .st_circle_first {
@@ -210,7 +202,6 @@ h2 {
     font-weight: 800;
     letter-spacing: 5px;
     margin-top: 13px;
-
 }
 
 .statistics_text {
@@ -218,7 +209,6 @@ h2 {
     margin-top: 20px;
 }
 
-/* third section benefits */
 .third_section_benefits {
     padding: 100px 0;
     padding-top: 20px;
@@ -245,7 +235,6 @@ h2 {
     line-height: 22px;
 }
 
-
 .benefits_text::after {
     content: "";
     width: 332px;
@@ -254,7 +243,6 @@ h2 {
     display: block;
     margin-top: 50px;
 }
-
 
 .benefits_description {
     margin-top: 30px;
@@ -265,7 +253,6 @@ h2 {
 .benefits_image {
     position: relative;
 }
-
 
 .benefits_image img {
     position: relative;
@@ -363,7 +350,7 @@ h2 {
 .benefits_title {
     text-align: left;
 }
-/* four section pricing */
+
 .four_section_pricing {
     margin: 100px auto;
     display: flex;
@@ -465,7 +452,6 @@ h2 {
     font-size: 1.3125rem;
 }
 
-
 .pricing_column_professional .pricing_description {
     margin-bottom: 25px;
 }
@@ -474,7 +460,6 @@ h2 {
     --accent-color: var(--color-green);
 }
 
-/* section fifth Contact */
 .fifth_section_contact {
     padding: 80px 100px 100px;
     display: flex;
@@ -607,8 +592,6 @@ h2 {
     box-shadow: 5px 10px 14px #07ACE629;
 }
 
-
-/* footer */
 .footer {
     box-shadow: 0 -5px 40px #00000029;
     padding: 20px 0;
